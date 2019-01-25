@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include slpl_hr *.css
+recursive-include slpl_hr *.csv
+recursive-include slpl_hr *.html
+recursive-include slpl_hr *.ico
+recursive-include slpl_hr *.js
+recursive-include slpl_hr *.json
+recursive-include slpl_hr *.md
+recursive-include slpl_hr *.png
+recursive-include slpl_hr *.py
+recursive-include slpl_hr *.svg
+recursive-include slpl_hr *.txt
+recursive-exclude slpl_hr *.pyc

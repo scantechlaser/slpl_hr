@@ -1,0 +1,33 @@
+{
+ "add_total_row": 0, 
+ "creation": "2019-01-08 12:24:38.151408", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "letter_head": "Scantech Letter Head New", 
+ "modified": "2019-01-11 11:07:21.875256", 
+ "modified_by": "Administrator", 
+ "module": "slpl_hr", 
+ "name": "Empoyee Leave Balance Report", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "ref_doctype": "Employee", 
+ "report_name": "Empoyee Leave Balance Report", 
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "HR Manager"
+  }, 
+  {
+   "role": "HR User"
+  }, 
+  {
+   "role": "Employee"
+  }, 
+  {
+   "role": "System Manager"
+  }
+ ]
+}
