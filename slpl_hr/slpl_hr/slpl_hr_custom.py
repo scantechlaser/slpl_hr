@@ -23,18 +23,18 @@ import frappe.utils.user
 # cursor = conn.cursor()
 
 def validate_date(doc,method):
+	frappe.msgprint("Thank You !")
+#role = frappe.get_roles(frappe.session.user)
 
-	role = frappe.get_roles(frappe.session.user)
+#if 'HR Manager' not in role:
 
-	if 'HR Manager' not in role:
+#from_date = str(doc.from_date).split("-")
+#to_date = str(doc.from_date).split("-")
+#posting_date = str(doc.posting_date).split("-")
+#if posting_date[1] > to_date[1]:
 
-		from_date = str(doc.from_date).split("-")
-		to_date = str(doc.from_date).split("-")
-		posting_date = str(doc.posting_date).split("-")
-		if posting_date[1] != to_date[1]:
+#frappe.throw(_("You Cannot save Previous date Application, Please contact to HR Department"))
+#else:
 
-			frappe.throw(_("You Cannot save Previous date Application, Please contact to HR Department"))
-	else:
-
-		frappe.msgprint("Continue")
+#frappe.msgprint("Continue")
 
